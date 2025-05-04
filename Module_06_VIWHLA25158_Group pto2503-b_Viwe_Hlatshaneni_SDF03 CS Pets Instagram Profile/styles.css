@@ -1,0 +1,52 @@
+:root {
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 3rem;
+}
+
+img {
+    display: inline;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image{
+    border: 25px solid green;
+    border-radius: 200px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.profile-user-settings{
+   display: block;
+   margin-bottom: auto;
+}
+.profile-stats{
+    display: inline;
+    
+}
+.profile-bio{
+    margin-bottom: auto;
+}
+.gallery{
+    display: grid;
+    grid-gap: 100px; 
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+}
